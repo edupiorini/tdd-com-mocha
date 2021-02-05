@@ -5,6 +5,7 @@
 const assert = require('assert');
 const Math = require('../src/math.js');
 const expect = require('chai').expect;
+const sinon = require('sinon');
 
 let value = 0;
 //-> Com chai
