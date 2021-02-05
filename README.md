@@ -28,5 +28,9 @@ No código temos:
    ```
    yarn test
    ```
+5. Caso queira utilizar Chai ao invés do assert, adiocione a lib
 
+   ```
+   yarn add chai -D
+   ```
    
