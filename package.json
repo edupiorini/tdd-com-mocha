@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "chai": "^4.3.0",
     "mocha": "^8.2.1"
   },
   "name": "tdd-com-mocha",
@@ -7,9 +8,7 @@
   "main": "index.js",
   "author": "Eduardo Piorini <eduardopiorini@hotmail.com>",
   "license": "MIT",
-
   "scripts": {
     "test": "mocha"
   }
 }
-  
