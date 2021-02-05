@@ -33,4 +33,8 @@ No código temos:
    ```bash
    yarn add chai -D
    ```
+6. Para utilizar sinon e suas funcionalidades:
+
+   ```bash
+   yarn add sinon -D
    

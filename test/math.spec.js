@@ -27,15 +27,27 @@ describe('Math class', function() {
             done();
         });
     });
-// utilizando on it.only apenas este teste irá ser executado 
-// se utilizarmos o it.skip o teste será ignorado
 
     it('Multiply two numbers', function(){
         const math = new Math();
 
         expect(math.multiply(value, 5)).to.equal(0);// aqui não vai passar pois o value será 0
     });
+
+    it.only('Calls res with sum and index values', function() {
+        const req = {};
+        const res = {
+            load: sinon.spy()
+        };
+
+        const math = new Math();
+        
+        math.printSum(req, res, 5, 5);
+
+        expect(res.load.calledOnce).to.be.true;
+    })
 });
+
 
 // -> Com assert
 // describe('Math class', function() {
