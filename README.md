@@ -19,18 +19,18 @@ No código temos:
 
 3. Instale o Mocha como dependencia de desenvolvimento
 
-   ```
+   ```bash
    yarn add Mocha -D
    ```
 
 4. Execute os testes
 
-   ```
+   ```bash
    yarn test
    ```
 5. Caso queira utilizar Chai ao invés do assert, adiocione a lib
 
-   ```
+   ```bash
    yarn add chai -D
    ```
    
